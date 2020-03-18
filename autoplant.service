@@ -1,0 +1,13 @@
+[Unit]
+Description=Automated greenhouse maintenance system
+After=systemd-resolved.service
+
+[Service]
+Type=idle
+User=root
+Group=root
+ExecStart=/usr/bin/autoplant
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target

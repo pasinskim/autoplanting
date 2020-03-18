@@ -1,0 +1,3 @@
+# this is a test file for testing jobs scheduling
+*/1 * * * * lamp 5
+*/2 * * * * pump 10
